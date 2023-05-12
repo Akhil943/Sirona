@@ -11,11 +11,9 @@ import Bestseller from "./Components/Bestseller";
 import Spotlight from "./Components/Spotlight";
 import Footer from "./Components/Footer";
 
-import { Routes, Route } from "react-router-dom";
 
 function App() {
   return (
-    
     <div className="App">
       <Navbar/>
       <Carousel/>

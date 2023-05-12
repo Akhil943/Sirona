@@ -1,5 +1,4 @@
 import React from "react";
-import { HashLink } from "react-router-hashlink";
 
 
 function Navbar() {
@@ -31,7 +30,7 @@ function Navbar() {
           <div className="container">
             <ul className="navbar-nav gap-4  mb-lg-0">
               <li className="nav-item">
-                <a className="nav-link active"  href="#"><HashLink to="#Bestseller">SHOP ALL</HashLink>  </a>
+                <a className="nav-link active"  href="#">SHOP ALL  </a>
               </li>
               <li className="nav-item">
                 <a className="nav-link" href="#">PERIOD CARE</a>
