@@ -3,7 +3,7 @@ import React from 'react'
 export default function Bestseller() {
     return (
     <div className='py-5 bg-light' style={{position:"relative",top:"125px",}}>
-        <h3 className='text-center  m-auto' style={{borderBottom:"5px solid rgb(254, 148, 190)",width:"200px",}}><b>BEST SELLER</b></h3>
+        <h3 className='text-center  m-auto' style={{borderBottom:"5px solid rgb(254, 148, 190)", width:"200px",}}><b>BEST SELLER</b></h3>
       <div id="carouselExamples" className=" container carousel slide pt-5">
             <div className="carousel-inner">
                 <div className="carousel-item active">
