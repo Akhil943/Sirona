@@ -8,7 +8,7 @@ function Navbar() {
         <nav className="navbar navbar-expand-lg bg-body-tertiary" >
           <div className="container d-flex">
             <a href=""><img src="https://files.thesirona.com/site-images/original/253x72.png" className="image-fluid w-75 h-50" alt="" /></a>
-            <form className="d-flex " role="search">
+          <form className="d-flex " role="search">
                 <input className="form-control me-2" type="search" placeholder="Search" aria-label="Search"/>
                 <button className="btn btn-outline-success" type="submit">Search</button>
             </form>
@@ -36,25 +36,28 @@ function Navbar() {
                 <a className="nav-link" href="#">PERIOD CARE</a>
               </li>
               <li className="nav-item">
-                <a className="nav-link "  href="#">INTIMATE CARE</a>
+                <a className="nav-link" href="#">INTIMATE CARE</a>
               </li>
               <li className="nav-item">
                 <a className="nav-link" href="#">TOILET HYGIENE</a>
               </li>
               <li className="nav-item">
-                <a className="nav-link ">HAIR REMOVAL</a>
+                <a className="nav-link" href="#">HAIR REMOVAL</a>
               </li>
               <li className="nav-item">
-                <a className="nav-link "  href="#">PERSONAL SAFETY</a>
+                <a className="nav-link" href="#">PERSONAL SAFETY</a>
               </li>
               <li className="nav-item">
                 <a className="nav-link" href="#">KITS</a>
               </li>
               <li className="nav-item">
-                <a className="nav-link ">BLOG</a>
+                <a className="nav-link" href="#">BLOG</a>
               </li>
             </ul>
           </div>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
         </nav>
       </div>
 
