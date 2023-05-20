@@ -2,7 +2,7 @@ import React from 'react'
 
 export default function Scrollspy() {
     return (
-        <div className="bg-light" style={{position:"relative",top:"125px",}}>
+        <div className="bg-light  scrollspy" >
             <div className='container bg-light'>
                 <div className="row " style={{width:"100%",height:"400px",overflowY:"scroll",}}>
                     <div data-bs-spy="scroll" data-bs-target="#navbar-example2" data-bs-root-margin="0px 0px -40%" data-bs-smooth-scroll="true" className="scrollspy-example bg-body-tertiary p-3 rounded-2" tabindex="0">

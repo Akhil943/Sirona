@@ -4,8 +4,8 @@ import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 
-export default function Bestseller() {
-    const settings = {
+function Slick() {
+    var settings = {
         dots: true,
         infinite: false,
         speed: 500,
@@ -39,12 +39,9 @@ export default function Bestseller() {
             }
         ]
     };
-
     return (
-        <div className=' bg-light bestseller px-3' >
-            
-            <h3 className='text-center best m-auto' style={{  width: "200px", }}><b>BEST SELLER</b></h3>
-            <div className='container my-4'>
+        <div className='bg-danger testing px-3' >
+            <div className='container'>
 
                 <Slider {...settings}>
                     <div className="card "  >
@@ -56,7 +53,7 @@ export default function Bestseller() {
                             <span style={{ fontSize: "20PX", }}> <b>&#8377; 259</b></span> &nbsp; <strike>&#8377; 399</strike>
                         </div>
                     </div>
-                    <div className="card" >
+                    <div className="card"  >
                         <img src="https://files.thesirona.com/site-images/400x400/bum-cream-1_1.png" className="image-fluid " alt="..." />
                         <div className="card-body text-center">
                             <h6 className="card-title"><b>SIRONA NATURAL CREAM</b></h6>
@@ -110,4 +107,4 @@ export default function Bestseller() {
     )
 }
 
-
+export default Slick

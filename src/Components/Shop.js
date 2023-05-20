@@ -2,9 +2,9 @@ import React from 'react'
 
 export default function Shop() {
   return (
-    <div className="bg-light" style={{position:"relative",top:"125px",}}>
-        <div className='container py-5'>
-        <h3 className='text-center  m-auto' style={{borderBottom:"5px solid rgb(254, 148, 190)",width:"300px",align:"center",}}><b>SHOP BY CATEGORIES</b></h3>
+    <div className="bg-light shop" >
+        <div className='container '>
+        <h3 className='text-center  m-auto categories' style={{width:"300px",align:"center",}}><b>SHOP BY CATEGORIES</b></h3>
             <div className='row d-flex justify-content-between pt-5' >
                 <div className="col-lg-2 text-center">
                 <img src="https://files.thesirona.com/site-images/original/01-Period-Care_2.png" className="card-img-top " style={{width:"150px",}} alt="..."/>

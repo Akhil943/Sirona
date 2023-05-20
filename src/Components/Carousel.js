@@ -2,7 +2,7 @@ import React from 'react'
 
 export default function Carousel() {
   return (
-    <div id="carouselExampleControlsNoTouching" className="carousel slide" data-bs-touch="false"  style={{position:"relative",top:"125px",}}>
+    <div id="carouselExampleControlsNoTouching" className="carousel slide maincarousel" data-bs-touch="false"  >
             <div className="carousel-inner">
                 <div className="carousel-item active">
                     <img src="https://files.thesirona.com/site-images/original/2Web-banner-1920x527.gif" className="d-block w-100" alt="..."/>

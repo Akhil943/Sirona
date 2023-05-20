@@ -10,6 +10,8 @@ import Scrollspy from "./Components/Scrollspy";
 import Bestseller from "./Components/Bestseller";
 import Spotlight from "./Components/Spotlight";
 import Footer from "./Components/Footer";
+import "./Components/Style.css";
+// import Slick from "./Components/Slick";
 
 
 function App() {
@@ -27,6 +29,7 @@ function App() {
       <Standards/>
       <Scrollspy/>
       <Footer/> 
+      {/* <Slick/> */}
     </div>
   );
 }

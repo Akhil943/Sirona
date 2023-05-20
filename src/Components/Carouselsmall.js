@@ -4,7 +4,7 @@ export default function Carouselsmall() {
     return (
     <div>
       
-        <div id="carouselExample" className="carousel slide " style={{position:"relative",top:"125px",}}>
+        <div id="carouselExample" className="carousel slide maincarousel " >
             <div className="carousel-inner">
                 <div className="carousel-item active">
                     <img src="https://files.thesirona.com/site-images/original/Mobikwik-3360x279.png" className="d-block w-100" alt="..."/>

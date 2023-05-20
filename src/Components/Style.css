@@ -1,0 +1,178 @@
+*{
+    margin:0px;
+    padding: 0px;
+    
+}
+.logo{
+    width: 150px;   
+}
+.color{
+    background-color: red;
+}
+
+.first {
+    margin: auto;
+    position: fixed;
+    z-index: 99;
+    background-color:white ;
+}
+.color{
+    background-color: aqua;
+}
+.top{
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 15px;
+}
+#navbarSupportedContent ul li a{
+    margin-right:20px;
+    color:black;
+}
+#navbarSupportedContent ul li a:hover{
+    
+    color:red;
+    
+}
+.maincarousel{
+    position:relative;
+    top:125px;
+
+}
+.look{
+
+    background: linear-gradient(180deg, rgba(255,255,255,1) 15%, rgba(247,155,213,1) 100%);
+    width:400px;
+}
+.spot{
+    background: linear-gradient(180deg, rgba(255,255,255,1) 15%, rgba(247,155,213,1) 100%);
+    width:300px;
+
+}
+.about,.shop,.bestseller,.free,.looking,.spotlight,.standard,.scrollspy,.footer,.testing{
+    position:relative;
+    top:125px;
+}
+.slick-slide > div {
+    margin: 0 10px;
+  }
+  .slick-list {
+    margin: 0 -10px;
+}
+
+.card{
+    width: 100%;
+    height: 250px;
+    object-fit: contain;
+    overflow: hidden;
+
+}
+
+
+ .card img{
+    width: 100%;
+    height: 275px;
+    object-fit: contain;
+    overflow: hidden;
+    margin:10px 0px ;
+   
+     
+     
+ }
+ .card-body p{
+    text-align: justify;
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+}
+.bestseller{
+    padding: 50px 0px;
+}
+.categories,.best{
+
+    background: linear-gradient(180deg, rgba(255,255,255,1) 15%, rgba(247,155,213,1) 100%);
+}
+
+
+
+@media only screen and (min-width:360px) and (max-width:640px){
+    .logo{
+        width: 200px;
+        display: flex;
+        margin: auto;
+        margin-bottom: 10px;
+        
+    }
+    .top{
+        align-items: center;
+        display: inline;
+        justify-content: space-between;
+        margin-top: 5px;
+        
+    
+    }
+    #navbarSupportedContent{
+        width: 200px;
+        background-color: white;
+        position: absolute;
+        top: 55px;
+        right: -35px;
+        z-index: 99;
+        margin: auto;
+        border-radius: 5px;
+
+    }
+    #navbarSupportedContent ul li a{
+        margin-bottom:10px;
+        color: black;
+        text-align: end;  
+    }
+    #navbarSupportedContent ul li a:hover{
+        color: red;
+
+    }
+    .button {
+    display: flex;
+    margin-left: auto;
+    position: relative;
+    }
+    .first {
+        margin: auto;
+        position: static;
+        background-color:white ;
+    }
+    .maincarousel{
+        position:relative;
+        top:0px;
+    
+    }
+    .look{
+
+        background: linear-gradient(180deg, rgba(255,255,255,1) 15%, rgba(247,155,213,1) 100%);
+        width:320px;
+       
+    }
+    .spot{
+        background: linear-gradient(180deg, rgba(255,255,255,1) 15%, rgba(247,155,213,1) 100%);
+        width:250px;
+        
+    }
+    .about,.shop,.bestseller,.free,.looking,.spotlight,.standard,.scrollspy,.footer{
+        position:relative;
+        top:0px;
+
+    }
+    .card img{
+        width: 100%;
+        height: 250px;
+        object-fit: contain;
+        overflow: hidden;
+    }
+    .bestseller{
+        padding: 30px 0px 0px 0px;
+    }
+
+
+
+}
